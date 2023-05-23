@@ -1,5 +1,7 @@
 # Segment-Anything-Model-SAM-Point-prompt-Made-Easy-for-Segmentation-Mask
-This is a made easy code for starters who want to use point prompt for recently released ground breaking foundational model Segment anything (SAM) by Meta AI. This code is to make easy to jump in a project where you can select point then apply to a directory and then evaluate on binary ground truth mask. You will also get binary mask from the code.
+This is a made easy code for starters who want to use point prompt for recently released ground breaking foundational model Segment anything (SAM) by Meta AI. This code is to make easy to jump in a project where you can select point then apply to a directory and then evaluate on binary ground truth mask. You will also get binary mask from the code. 
+The code will output binary segmented masks in folder. In 'outputs_prompt' named folder there will be masks based on **point prompt segmentation** and in the 'outputs_auto' there will be masks based on **automatic segmentation**. 
+
 
 
 Organization of input image directory:
@@ -33,4 +35,8 @@ git clone https://github.com/facebookresearch/segment-anything.git
 4. Then, run the code 
 ```bash
 python sam_with_widget.py
+```
+N.B: For inputting other arguments like: input images folder name, groundtruth folder name, put
+```bash
+python sam_with_widget.py -i input_folder -g groundtruth_folder 
 ```
