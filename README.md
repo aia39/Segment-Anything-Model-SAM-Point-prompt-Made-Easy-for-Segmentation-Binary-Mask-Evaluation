@@ -21,7 +21,7 @@ gt/
      ...
 ```
 
-The prompt needs to be enter by clicking mouse where **Left click** is for **Foreground** and **Right click** is for **background**. Like the below image one has to put point prompt in the image.
+The prompt needs to be enter by clicking mouse where **Left click** is for **Foreground** (BLUE DOT) and **Right click** is for **background**(RED DOT). Like the below image one has to put point prompt in the image.
 ![demoofprompt](demo.JPG)
 
 # Getting Started
