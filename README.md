@@ -18,3 +18,19 @@ gt/
      img4.jpg
      ...
 ```
+
+# Getting Started
+1. First run the git clone
+```bash
+git clone https://github.com/facebookresearch/segment-anything.git
+```
+2. Secondly, download the weight file from the main [repo](https://github.com/facebookresearch/segment-anything#model-checkpoints), or download in colab by 
+```bash
+!wget https://dl.fbaipublicfiles.com/segment_anything/sam_vit_h_4b8939.pth -O sam_vit_h.pth
+!wget https://dl.fbaipublicfiles.com/segment_anything/sam_vit_b_01ec64.pth -O sam_vit_b.pth
+```
+3. Thirdly, organize the desired dataset like above mentioned structure.
+4. Then, run the code 
+```bash
+python sam_with_widget.py
+```
