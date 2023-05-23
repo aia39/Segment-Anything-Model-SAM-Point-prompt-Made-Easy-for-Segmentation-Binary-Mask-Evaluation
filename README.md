@@ -40,3 +40,7 @@ N.B: For inputting other arguments like: input images folder name, groundtruth f
 ```bash
 python sam_with_widget.py -i input_folder -g groundtruth_folder 
 ```
+
+## Acknowledgement 
+* https://github.com/facebookresearch/segment-anything
+* https://learnopencv.com/segment-anything/
