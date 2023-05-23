@@ -21,6 +21,9 @@ gt/
      ...
 ```
 
+The prompt needs to be enter by clicking mouse where **Left click** is for **Foreground** and **Right click** is for **background**. Like the below image one has to put point prompt in the image.
+![demoofprompt](demo.JPG)
+
 # Getting Started
 1. First run the git clone
 ```bash
